@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LinkedIn Feed</title>
+  <link rel="stylesheet" href="src/styles.css">
+  <link rel="shortcut icon" href="src/assets/linkedin-logo.svg" type="image/x-icon">
+  <meta name="description" content="This Project Developed By Rukesh Babu Gantla. Designed By Siva Naik Mudavathu.">
+  <meta name="keywords" content="LinkedIn, Social Media, Networking, Professional, Job Search">
+  <meta name="author" content="Rukesh Babu Gantla">
+  <meta name="theme-color" content="#0077b5">
+  <meta property="og:title" content="LinkedIn Feed">
+  <meta property="og:description" content="This Project Developed By Rukesh Babu Gantla. Designed By Siva Naik Mudavathu.">
+  <meta property="og:image" content="src/assets/linkedin-logo.svg">
+  <meta property="og:url" content="https://www.linkedin.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="LinkedIn">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="LinkedIn Feed">
+  <meta name="twitter:description" content="This Project Developed By Rukesh Babu Gantla. Designed By Siva Naik Mudavathu.">
+  <meta name="twitter:image" content="src/assets/linkedin-logo.svg">
+  <meta name="twitter:site" content="@LinkedIn">
+  <meta name="twitter:creator" content="@RukeshBabuGantla">
+  <meta name="twitter:domain" content="linkedin.com">
+  <meta name="twitter:app:name:iphone" content="LinkedIn">
+  <meta name="twitter:app:id:iphone" content="288429040">
+  <meta name="twitter:app:url:iphone" content="linkedin://">
+  <meta name="twitter:app:name:ipad" content="LinkedIn">
+  <meta name="twitter:app:id:ipad" content="288429040">
+  <meta name="twitter:app:url:ipad" content="linkedin://">
+  <meta name="twitter:app:name:googleplay" content="LinkedIn">
+  <meta name="twitter:app:id:googleplay" content="com.linkedin.android">
+  <meta name="twitter:app:url:googleplay" content="linkedin://">
+  <meta name="twitter:app:url:iphone" content="linkedin://">
+  <meta name="twitter:app:url:ipad" content="linkedin://">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-left">
+      <div class="logo">
+        <img src="src/assets/linkedin-logo.svg" alt="LinkedIn">
+      </div>
+      <div class="search-container">
+        <i class="fas fa-search"></i>
+        <input type="text" placeholder="Search">
+      </div>
+    </div>
+    <nav class="header-right">
+      <ul class="nav-items">
+        <li class="nav-item active">
+          <a href="#" class="nav-link">
+            <i class="fas fa-home"></i>
+            <span>Home</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <i class="fas fa-user-friends"></i>
+            <span>My Network</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <i class="fas fa-briefcase"></i>
+            <span>Jobs</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <i class="fas fa-comment-dots"></i>
+            <span>Messaging</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <i class="fas fa-bell"></i>
+            <span>Notifications</span>
+            <span class="notification-badge">2</span>
+          </a>
+        </li>
+        <li class="nav-item profile">
+          <a href="#" class="nav-link">
+            <img src="src/assets/profile.jpeg" alt="Profile" class="profile-img">
+            <span>Me</span>
+          </a>
+        </li>
+      </ul>
+      <div class="nav-divider"></div>
+      <div class="grid-icon">
+        <i class="fas fa-th"></i>
+        <span>Work</span>
+      </div>
+      <div class="premium-link">
+        <a href="#">Try Premium for free</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main-container">
+    <div class="left-sidebar">
+      <div class="profile-card">
+        <div class="profile-background"></div>
+        <div class="profile-content">
+          <img src="src/assets/profile.jpeg" alt="Profile" class="sidebar-profile-img">
+          <h2>Rukesh Babu Gantla</h2>
+          <p>Student at MVR College of Engineering & Technology</p>
+        </div>
+        <div class="profile-stats">
+          <div class="stat">
+            <p>Who's viewed your profile</p>
+            <p class="stat-number">73</p>
+          </div>
+          <div class="stat">
+            <p>Views of your posts</p>
+            <p class="stat-number">35</p>
+          </div>
+        </div>
+        <div class="premium-access">
+          <a href="#">
+            <i class="fas fa-bookmark"></i>
+            See all Premium features
+          </a>
+        </div>
+        <div class="my-items">
+          <a href="#">
+            <i class="fas fa-bookmark"></i>
+            My items
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="middle-container">
+      <div class="post-box">
+        <div class="post-input">
+          <img src="src/assets/profile.jpeg" alt="Profile" class="post-profile-img">
+          <button class="post-button">Start a post</button>
+        </div>
+        <div class="post-options">
+          <button class="post-option">
+            <i class="far fa-image" style="color: #70b5f9;"></i>
+            <span>Media</span>
+          </button>
+          <button class="post-option">
+            <i class="far fa-calendar" style="color: #7fc15e;"></i>
+            <span>Event</span>
+          </button>
+          <button class="post-option">
+            <i class="fas fa-newspaper" style="color: #e7a33e;"></i>
+            <span>Write article</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="feed-divider">
+        <hr>
+        <span>Sort by: Top</span>
+        <i class="fas fa-caret-down"></i>
+      </div>
+
+      <div class="feed-post">
+        <div class="post-header">
+          <img src="src/assets/siva.jpeg" alt="Helen" class="post-author-img">
+          <div class="post-info">
+            <h3>Siva Naik Mudavathu</h3>
+            <p>Student at MVR College of Engineering & Technology</p>
+            <p class="post-time">3mo</p>
+          </div>
+          <button class="more-button">
+            <i class="fas fa-ellipsis-h"></i>
+          </button>
+        </div>
+        <div class="post-content">
+          <p>Excited to announce my latest achievement: I've earned the Tata Group - Cybersecurity Analyst Job Simulation certification from Forage! hashtag  <a href="#">#forage</a><br> <a href="#">see more</a>
+          </p>
+          <img src="src/assets/certificate.jpeg" alt="Helen Post" class="post-image">
+        </div>
+        <div class="post-stats">
+          <span>8 Likes • 5 Comments</span>
+        </div>
+        <div class="post-actions">
+          <button class="post-action">
+            <i class="far fa-thumbs-up"></i>
+            <span>Like</span>
+          </button>
+          <button class="post-action">
+            <i class="far fa-comment"></i>
+            <span>Comment</span>
+          </button>
+          <button class="post-action">
+            <i class="fas fa-share"></i>
+            <span>Share</span>
+          </button>
+        </div>
+        <div class="post-comments">
+          <div class="comment">
+            <img src="src/assets/santhosh.jpeg" alt="Susan" class="comment-author-img">
+            <div class="comment-content">
+              <div class="comment-header">
+                <h4>Santosh Reddi
+                </h4>
+                <span class="comment-time">1 min</span>
+                <button class="more-button">
+                  <i class="fas fa-ellipsis-h"></i>
+                </button>
+              </div>
+              <p>Congratulations!</p>
+              <div class="comment-actions">
+                <button class="comment-action">Like</button>
+                <button class="comment-action">Reply</button>
+              </div>
+            </div>
+          </div>
+          <div class="add-comment">
+            <img src="src/assets/profile.jpeg" alt="Profile" class="comment-profile-img">
+            <input type="text" placeholder="Add a comment...">
+          </div>
+        </div>
+      </div>
+
+      <div class="feed-post">
+        <div class="post-header">
+          <img src="src/assets/rudra.jpeg" alt="FixDex" class="post-author-img company-img">
+          <div class="post-info">
+            <h3>Rudra Fusion Private Limited</h3>
+            <p>89 followers</p>
+          </div>
+          <button class="follow-button">
+            <i class="fas fa-plus"></i>
+            Follow
+          </button>
+          <button class="more-button">
+            <i class="fas fa-ellipsis-h"></i>
+          </button>
+        </div>
+        <div class="post-content">
+          <p>🚀 Big News from Rudra Fusion! 🚀
+
+            We are thrilled to announce that Rudra Fusion is now officially <a href="http://rudrafusion.in">http://rudrafusion.in</a></p>
+          <img src="src/assets/pvt.jpeg" alt="FixDex Post" class="post-image">
+        </div>
+      </div>
+    </div>
+
+    <div class="right-sidebar">
+      <div class="news-card">
+        <div class="news-header">
+          <h2>What you need to know now</h2>
+          <i class="fas fa-info-circle"></i>
+        </div>
+        <ul class="news-list">
+          <li class="news-item">
+            <h3>The Dow is About to Hit 20,000</h3>
+            <p>Top News</p>
+          </li>
+          <li class="news-item">
+            <h3>What Today's Job Numbers Mean for You</h3>
+            <p>5 new posts</p>
+          </li>
+          <li class="news-item">
+            <h3>How Healthcare Repeal Could Affect Your Workday – and Your Retirement</h3>
+            <p>Updated 10 mins ago</p>
+          </li>
+          <li class="news-item">
+            <h3>Economy Grew at Fastest Pace in Two Years</h3>
+            <p>Trending • 2M talking about this</p>
+          </li>
+          <li class="news-item">
+            <h3>#ChaseGreat</h3>
+            <p>Trending • 1.8M talking about this</p>
+          </li>
+        </ul>
+      </div>
+
+      
+
+      <div class="follow-card">
+        <h2>Follow new perspectives <span class="see-more">See more</span></h2>
+        <ul class="follow-list">
+          <li class="follow-item">
+            <img src="src/assets/vamsi.jpeg" alt="Decagon" class="follow-img">
+            <div class="follow-info">
+              <h3>vamsi manohar
+              </h3>
+              <p>Student at Heal Paradise</p>
+            </div>
+            <button class="follow-button-small">
+              <i class="fas fa-plus"></i>
+            </button>
+          </li>
+          <li class="follow-item">
+            <img src="src/assets/hyni.jpeg" alt="Ryan" class="follow-img">
+            <div class="follow-info">
+              <h3>Hyni Susanna
+              </h3>
+              <p>---</p>
+            </div>
+            <button class="follow-button-small">
+              <i class="fas fa-plus"></i>
+            </button>
+          </li>
+          <li class="follow-item">
+            <img src="src/assets/shalem.jpeg" alt="Arianna" class="follow-img">
+            <div class="follow-info">
+              <h3>SHALEM MARAPAKULA
+              </h3>
+              <p>Student @ MVR College <br>Engineering, Technology</p>
+            </div>
+            <button class="follow-button-small">
+              <i class="fas fa-plus"></i>
+            </button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="ad-container">
+        <img src="src/assets/ad-image.jpg" alt="Advertisement" class="ad-image">
+      </div>
+    </div>
+  </main>
+
+  <script src="src/main.js"></script>
+</body>
+</html>
