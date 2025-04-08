@@ -17,11 +17,10 @@ A clean and responsive **LinkedIn UI Clone** built using only frontend technolog
 - Fully responsive design
 
 ## 📸 Screenshot
-![LinkedIn Clone UI](./screenshot.png) <!-- (Upload your screenshot image and rename it to screenshot.png) -->
+![image](https://github.com/user-attachments/assets/b941e29c-da34-436c-976a-df1967ab3d69)
+ <!-- (Upload your screenshot image and rename it to screenshot.png) -->
 
 ## 🚀 Getting Started
 Simply download or clone the repository and open `index.html` in any browser.
 
-```bash
-git clone https://github.com/yourusername/linkedin-clone-frontend.git
-cd linkedin-clone-frontend
+
